@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mhmde\\Desktop\\UserManagement\\UserManagement\\UserManagement\\UserManagement\\UserManagement.csproj": {}
+    "C:\\Users\\mhmde\\Desktop\\UserManagement\\UserManagement\\UserManagement\\UserManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mhmde\\Desktop\\UserManagement\\UserManagement\\UserManagement\\UserManagement\\UserManagement.csproj": {
+    "C:\\Users\\mhmde\\Desktop\\UserManagement\\UserManagement\\UserManagement\\UserManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mhmde\\Desktop\\UserManagement\\UserManagement\\UserManagement\\UserManagement\\UserManagement.csproj",
+        "projectUniqueName": "C:\\Users\\mhmde\\Desktop\\UserManagement\\UserManagement\\UserManagement\\UserManagement.csproj",
         "projectName": "UserManagement",
-        "projectPath": "C:\\Users\\mhmde\\Desktop\\UserManagement\\UserManagement\\UserManagement\\UserManagement\\UserManagement.csproj",
+        "projectPath": "C:\\Users\\mhmde\\Desktop\\UserManagement\\UserManagement\\UserManagement\\UserManagement.csproj",
         "packagesPath": "C:\\Users\\mhmde\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mhmde\\Desktop\\UserManagement\\UserManagement\\UserManagement\\UserManagement\\obj\\",
+        "outputPath": "C:\\Users\\mhmde\\Desktop\\UserManagement\\UserManagement\\UserManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
