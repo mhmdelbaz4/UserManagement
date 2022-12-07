@@ -394,3 +394,5 @@ C:\Users\mhmde\Desktop\UserManagement\UserManagement\UserManagement\obj\Debug\ne
 C:\Users\mhmde\Desktop\UserManagement\UserManagement\UserManagement\obj\Debug\net5.0\UserManagement.pdb
 C:\Users\mhmde\Desktop\UserManagement\UserManagement\UserManagement\obj\Debug\net5.0\UserManagement.genruntimeconfig.cache
 C:\Users\mhmde\Desktop\UserManagement\UserManagement\UserManagement\obj\Debug\net5.0\ref\UserManagement.dll
+C:\Users\mhmde\Desktop\UserManagement\UserManagement\UserManagement\obj\Debug\net5.0\Razor\Views\Role\Index.cshtml.g.cs
+C:\Users\mhmde\Desktop\UserManagement\UserManagement\UserManagement\obj\Debug\net5.0\Razor\Views\Role\_RoleForm.cshtml.g.cs

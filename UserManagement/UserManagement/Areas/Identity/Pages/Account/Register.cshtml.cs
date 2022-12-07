@@ -94,6 +94,8 @@ namespace UserManagement.Areas.Identity.Pages.Account
                                                 , UserName =new MailAddress(Input.Email).User, Email = Input.Email };
 
                 var result = await _userManager.CreateAsync(user, Input.Password);
+
+                await _userManager.AddToRoleAsync(user, "User");
                 
                 if (result.Succeeded)
                 {
