@@ -27,7 +27,7 @@ namespace UserManagement.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
 
-        public async Task<IActionResult> Add(RoleViewModel model)
+        public async Task<IActionResult> Add(RoleFormViewModel model)
         {
             if (!ModelState.IsValid)
                 return View(nameof(Index), await _roleManager.Roles.ToListAsync());

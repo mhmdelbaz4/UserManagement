@@ -1,0 +1,47 @@
+﻿@model ModifyUserViewModel
+
+@{
+    ViewData["Title"] = "Modify User";
+}
+
+<h1>Add New User</h1>
+<form method="Post" asp-action="Modify" class="col col-md-4">
+ 
+        <input type ="hidden" asp-for="UserId" />
+        
+        <div class="form-group">
+            <label asp-for="FirstName" class="text-muted"></label>
+            <input asp-for="FirstName" class="form-control" maxlength=100/>
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="LastName" class="text-muted"></label>
+            <input asp-for="LastName" class="form-control" maxlength=100/>
+            <span asp-validation-for="LastName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Username" class="text-muted"></label>
+            <input asp-for="Username" class="form-control"/>
+            <span asp-validation-for="Username" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Email" class="text-muted"></label>
+            <input asp-for="Email" class="form-control"/>
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Save</button>     
+        <a asp-action="Index" class="btn btn-outline-primary" >Cancel</a>
+    </div>
+    
+    </form>
+
+</div>
+
+            
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}
